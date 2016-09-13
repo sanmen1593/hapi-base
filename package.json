@@ -1,0 +1,34 @@
+{
+  "name": "hapi-base",
+  "version": "1.0.0",
+  "description": "api implemented with hapi",
+  "main": "index.js",
+  "dependencies": {
+    "boom": "^4.0.0",
+    "hapi": "^15.0.3",
+    "joi": "^9.0.4",
+    "require-dir": "^0.3.0",
+    "oracledb": "^1.11.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "babel-register": "^6.14.0",
+    "chai": "^3.5.0",
+    "lab": "^11.0.1",
+    "sinon": "^1.17.5"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "lab test/**/*.js --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cebroker/hapi-base.git"
+  },
+  "author": "CEBroker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cebroker/hapi-base/issues"
+  },
+  "homepage": "https://github.com/cebroker/hapi-base#readme"
+}
